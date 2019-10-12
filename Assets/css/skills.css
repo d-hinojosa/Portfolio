@@ -1,0 +1,116 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/************************************  The Nav  ***************************************/
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+
+/* Top Nav links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Color change on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/**************************************  The Skill Bar  ********************************************/
+
+
+/* Make sure that padding behaves as expected */
+
+* {
+    box-sizing: border-box
+}
+
+
+/* Container for skill bars */
+
+#skills-container {
+    width: 85vw;
+    margin-left: 105px;
+    margin-right: 45px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.container {
+    width: 100%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.html {
+    width: 80%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width: 70%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 45%;
+    background-color: #f44336;
+}
+
+.react {
+    width: 65%;
+    background-color: #da2db4;
+}
+
+.node {
+    width: 40%;
+    background-color: #dbce10;
+}
+
+.mysql {
+    width: 70%;
+    background-color: #1fe8f7;
+}
+
+
+/*******************************  Footer  ******************************/
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
